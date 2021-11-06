@@ -1,0 +1,15 @@
+package leetCode;
+
+public class Main {
+
+	public static void main(String[] args) {
+		P4 p4 = new P4();
+		int nums1[] = {1,2};
+		int nums2[] = {3,4};
+		double result = p4.findMedianSortedArrays(nums1, nums2);
+		System.out.print(result);
+	}
+
+
+}
+

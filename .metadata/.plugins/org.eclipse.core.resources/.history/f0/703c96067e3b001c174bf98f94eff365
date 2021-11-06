@@ -1,0 +1,18 @@
+package leetCode;
+
+public class P0011 {
+    public int maxArea(int[] height) {
+        //brute force
+    	int maxVol = 0;
+    	for(int i = 1, j = 0; i < height.length && j < height.length-1; i++) {
+    		int lower_height = height[i] > height[j] ? height[j] : height[i];
+    		int currVol = (lower_height * (i-j));
+    		maxVol = maxVol > currVol ? maxVol : currVol;
+    		if(i == height.length-1) {
+    			j++;
+    		}
+
+    	}
+    	return maxVol;
+    }
+}

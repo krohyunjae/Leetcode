@@ -1,0 +1,12 @@
+package leetCode;
+
+public class Main {
+
+	public static void main(String[] args) {
+		P3 p3 = new P3();
+		int result = p3.lengthOfLongestSubstring("sdf");
+	}
+
+
+}
+

@@ -1,0 +1,17 @@
+package leetCode;
+import java.util.HashSet;
+import java.util.Set;
+public class P3 {
+    public int lengthOfLongestSubstring(String s) {
+        int left = 0, right = 0, length = 0;
+        Set<Character> set = new HashSet<Character>();
+        while(right < s.length()) {
+        	if(length < set.size()) {
+        		
+        	} else {
+        		
+        	}
+        }
+        return length;
+    }
+}
