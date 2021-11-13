@@ -3,62 +3,39 @@ package leetCode;
 import java.util.LinkedHashMap;
 import java.util.Map;
 public class P0012 {
-//	enum Roman{
-//		I(1), X(10), ;
-//		int num;
-//		Roman(int j) {
-//			this.num = j;
-//		} 
-//	};
-
-    
 	
-	@SuppressWarnings("serial")
-	LinkedHashMap<String, Integer> roman = new LinkedHashMap<String, Integer>(){{
-        put("I", 1);
-        put("IV", 4);
-        put("V", 5);
-        put("IX", 9);
-        put("X", 10);
-        put("XL", 40);
-        put("L", 50);
-        put("XC", 90);
-        put("C", 100);
-        put("CD", 400);
-        put("D", 500);
-        put("CM", 900);
-        put("M", 1000);}};
 	public String intToRoman(int num) {
+		LinkedHashMap<String, Integer> roman = new LinkedHashMap<String, Integer>();
+	    roman.put("M", 1000);
+	    roman.put("CM", 900);
+	    roman.put("D", 500);
+	    roman.put("CD", 400);
+	    roman.put("C", 100);
+	    roman.put("XC", 90);
+	    roman.put("L", 50);
+	    roman.put("XL", 40);
+	    roman.put("X", 10);
+	    roman.put("IX", 9);
+	    roman.put("V", 5);
+	    roman.put("IV", 4);
+	    roman.put("I", 1);
+		
 		String result = "";
     	for(Map.Entry<String, Integer> entry : roman.entrySet()) {
-    		
+    		int matches = num/entry.getValue();
+    		result += repeat(entry.getKey(), matches);
+    		num = num % entry.getValue();
     	}
-    	
-    	
-    	
-    	
-    	
-
-    	return null;
-//    	while(num != 0) {
-//    		int lastDig = num%10;
-//    		
-//    		if(lastDig > 5) {
-//    			if(lastDig == 9) {
-//    				
-//    			} else {
-//    				
-//    			}
-//    		} else {
-//    			if(lastDig == 4) {
-//    				
-//    			} else {
-//    				
-//    			}
-//    		}
-//    		
-//    		
-//    		num %= 10;
-//    	}
+    	return result;
     }
+	private static String repeat(String s, int n) {
+		if(s.equals(null)) {
+			return null;
+		}
+		final StringBuilder sb = new StringBuilder();
+		for(int i = 0; i < n; i++) {
+			sb.append(s);
+		}
+		return sb.toString();
+	}
 }
