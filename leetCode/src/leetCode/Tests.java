@@ -14,4 +14,11 @@ public class Tests {
 		P0014 test = new P0014();
 		System.out.println(test.longestCommonPrefix(strs));
 	}
+
+	public void P15Test(){
+		int[] nums = {-1,0,1,2,-1,-4};
+		P0015 test = new P0015();
+		System.out.println(test.threeSum(nums));
+
+	}
 }
