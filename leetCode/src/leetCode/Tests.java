@@ -1,5 +1,7 @@
 package leetCode;
 
+import java.util.Arrays;
+
 public class Tests {
 	public void P13Test() {
 		String roman = "MCMXCIV";
@@ -17,8 +19,14 @@ public class Tests {
 
 	public void P15Test(){
 		int[] nums = {-1,0,1,2,-1,-4};
+		int[] nums2 = {0,0,0};
 		P0015 test = new P0015();
+		
 		System.out.println(test.threeSum(nums));
-
+		
+	}
+	
+	public void P16Test() {
+		
 	}
 }

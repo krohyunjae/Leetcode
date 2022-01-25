@@ -12,7 +12,7 @@ public class P0015 {
         Arrays.sort(nums);
         List<List<Integer>> triplets = new ArrayList<List<Integer>>();
         for (int i = 0; i < nums.length-1; i++){
-            if(nums[i] < 0){
+            if(nums[i] <= 0){
                 if(i == 0 || nums[i] != nums[i-1]){
                     int low = i+1, high = nums.length-1;
                     while(low < high){
