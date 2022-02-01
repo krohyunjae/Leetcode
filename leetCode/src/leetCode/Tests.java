@@ -1,6 +1,13 @@
 package leetCode;
 
 import java.util.Arrays;
+class ListNode{
+	int val;
+	ListNode next;
+	ListNode(){}
+	ListNode(int val){this.val = val;}
+	ListNode (int val, ListNode next){this.val = val; this.next = next;}
+}
 
 public class Tests {
 	public void P13Test() {
@@ -27,6 +34,20 @@ public class Tests {
 	}
 	
 	public void P16Test() {
+		int[] nums1 = {-1,2,1,-4};
+		int target1 = 1; // expected result = 2;
 		
+		int[] nums2 = {0,0,0};
+		int target2 = 1;
+		
+		P0016 test = new P0016();
+		System.out.println(test.threeSumClosest(nums1, target1));
+	}
+	
+	public void P21Test() {
+		P0021 test = new P0021();
+		ListNode list1 = new ListNode();
+		
+		test.mergeTwoLists(list1, null);
 	}
 }
