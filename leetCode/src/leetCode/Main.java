@@ -4,7 +4,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		Tests test = new Tests();
-		test.P16Test();	
+		test.P26Test();	
 		
 	}
 	

@@ -16,22 +16,13 @@ public class P0026 {
 	 */
 	
 	public int removeDuplicates(int[] nums) {
-		if(nums.length < 1) return 0;
-		
-		int k = 1;
-		int next = 0;
+		int k = 0;
 		for(int i = 1; i < nums.length; i++) {
-			if(nums[i] == nums[i-1]) {
-				continue;
-			} else {
+			if(nums[k] != nums[i]) {
 				nums[k++] = nums[i];
 			}
-			if(nums[i] == nums[nums.length-1] && i < nums.length) { 
-				// TODO: do final operation and break
-				nums[k++] = nums[i];
-				break;
-			}
+			
 		}
-        return k;
+        return k+1;
     }
 }
