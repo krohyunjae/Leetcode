@@ -44,4 +44,11 @@ public class Tests {
 		
 		test.mergeTwoLists(list1, null);
 	}
+
+	public void P26Test(){
+		P0026 test = new P0026();
+		int[] nums = {1,1,2};
+		System.out.println(test.removeDuplicates(nums));
+
+	}
 }

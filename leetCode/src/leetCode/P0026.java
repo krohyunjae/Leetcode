@@ -28,7 +28,7 @@ public class P0026 {
 			}
 			if(nums[i] == nums[nums.length-1] && i < nums.length) { 
 				// TODO: do final operation and break
-				
+				nums[k++] = nums[i];
 				break;
 			}
 		}
