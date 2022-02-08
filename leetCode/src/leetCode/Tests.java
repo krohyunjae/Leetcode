@@ -1,6 +1,7 @@
 package leetCode;
 
 import java.util.Arrays;
+import java.util.List;
 
 
 public class Tests {
@@ -37,6 +38,13 @@ public class Tests {
 		P0016 test = new P0016();
 		System.out.println(test.threeSumClosest(nums1, target1));
 	}
+
+	public void P17Test(){
+		String digits = "23";
+		P0017 test = new P0017();
+		List<String> result = test.letterCombinations(digits);
+		System.out.println(result);
+	}
 	
 	public void P21Test() {
 		P0021 test = new P0021();
@@ -50,5 +58,12 @@ public class Tests {
 		int[] nums = {1,1,2};
 		System.out.println(test.removeDuplicates(nums));
 
+	}
+
+	public void P27Test(){
+		P0027 test = new P0027();
+		int[] nums = {3,2,2,3};
+		int val = 3;
+		System.out.println(test.removeElement(nums, val));
 	}
 }
