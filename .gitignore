@@ -92,3 +92,7 @@ local.properties
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,eclipse
 .metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
 .metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+
+# intellij
+.idea/*
+.metadata/*
