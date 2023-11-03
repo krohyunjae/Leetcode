@@ -2,7 +2,6 @@ package Tests;
 
 import Leetcode.*;
 import Structure.ListNode;
-
 import java.util.List;
 
 
@@ -75,5 +74,13 @@ public class Tests {
 		System.out.println(head);
 		test.reverseKGroup(head, 3);
 		System.out.println(head);
+	}
+
+	public void P29Test() {
+		P0029 test = new P0029();
+		int dividend = Integer.MIN_VALUE, divisor = Integer.MIN_VALUE+1;
+		int quotient = test.divide(dividend, divisor);
+		System.out.println(quotient);
+
 	}
 }
