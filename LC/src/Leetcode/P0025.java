@@ -24,12 +24,10 @@ public class P0025 {
         int count = 0;
         ListNode ans = new ListNode(0,head);
         ListNode h = head;
-//        ListNode tail;
-        while(head!= null){
-            head = head.next;
+        while(head != null){
             count++;
-            if(count == k){
-                count = 0;
+            if(count >= k){
+                count = 1;
                 ListNode temp = head.next;
                 //cut the link
                 head.next = null;
@@ -37,6 +35,8 @@ public class P0025 {
                 head = temp;
                 h = temp;
             }
+            h = head;
+            head = head.next;
         }
         return ans.next;
     }
@@ -59,6 +59,7 @@ public class P0025 {
 
     private ListNode reverse(ListNode head){
         if(head == null || head.next == null){
+            before.next = head;
             return head;
 
         }

@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7d91af1-7c36-427e-94a1-0610327436d1" name="Changes" comment="" />
+    <list default="true" id="a7d91af1-7c36-427e-94a1-0610327436d1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/LC/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LC/LC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LC/LC.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LC/out/production/LC/Leetcode/P0025.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LC/out/production/LC/Leetcode/P0026.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LC/out/production/LC/Leetcode/P0027.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LC/out/production/LC/Leetcode/P0028.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LC/out/production/LC/Leetcode/P0029.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LC/out/production/LC/Leetcode/P0239.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LC/out/production/LC/Leetcode/P0392.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LC/out/production/LC/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LC/out/production/LC/Tests/Tests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LC/src/Leetcode/P0025.java" beforeDir="false" afterPath="$PROJECT_DIR$/LC/src/Leetcode/P0025.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LC/src/Leetcode/P0029.java" beforeDir="false" afterPath="$PROJECT_DIR$/LC/src/Leetcode/P0029.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LC/src/Tests/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/LC/src/Tests/Tests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,13 +34,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Workspace/Leet/Leetcode/leetCode"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Workspace/Leetcode/LC&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
