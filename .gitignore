@@ -96,3 +96,7 @@ local.properties
 # intellij
 .idea/*
 .metadata/*
+
+*.class
+*.iml
+*.xml
