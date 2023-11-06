@@ -20,26 +20,26 @@ public class P0025 {
      * @param k
      * @return
      */
-    public ListNode reverseKGroup(ListNode head, int k) {
-        int count = 0;
-        ListNode ans = new ListNode(0,head);
-        ListNode h = head;
-        while(head != null){
-            count++;
-            if(count >= k){
-                count = 1;
-                ListNode temp = head.next;
-                //cut the link
-                head.next = null;
-                reverse(h).next = temp;
-                head = temp;
-                h = temp;
-            }
-            h = head;
-            head = head.next;
-        }
-        return ans.next;
-    }
+//    public ListNode reverseKGroup(ListNode head, int k) {
+//        int count = 0;
+//        ListNode ans = new ListNode(0,head);
+//        ListNode h = head;
+//        while(head != null){
+//            count++;
+//            if(count >= k){
+//                count = 1;
+//                ListNode temp = head.next;
+//                //cut the link
+//                head.next = null;
+//                reverse(h).next = temp;
+//                head = temp;
+//                h = temp;
+//            }
+//            h = head;
+//            head = head.next;
+//        }
+//        return ans.next;
+//    }
 
     /**
      *
@@ -57,16 +57,16 @@ public class P0025 {
         return temp;
     }
 
-    private ListNode reverse(ListNode head){
-        if(head == null || head.next == null){
-            before.next = head;
-            return head;
-
-        }
-        reverseListNode(head.next);
-        head.next.next = head;
-        head.next = null;
-        return head;
-    }
+//    private ListNode reverse(ListNode head){
+//        if(head == null || head.next == null){
+//            before.next = head;
+//            return head;
+//
+//        }
+//        reverseListNode(head.next);
+//        head.next.next = head;
+//        head.next = null;
+//        return head;
+//    }
 
 }

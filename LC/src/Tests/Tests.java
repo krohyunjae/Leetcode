@@ -72,7 +72,7 @@ public class Tests {
 		P0025 test = new P0025();
 		ListNode head = new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(4, new ListNode(5,null)))));
 		System.out.println(head);
-		test.reverseKGroup(head, 5);
+//		test.reverseKGroup(head, 5);
 		System.out.println(head);
 	}
 
