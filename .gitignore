@@ -102,3 +102,5 @@ local.properties
 *.xml
 *.bin
 *.lock
+
+.gradle/*
