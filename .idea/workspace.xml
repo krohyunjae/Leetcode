@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a7d91af1-7c36-427e-94a1-0610327436d1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/LC/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LC/LC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LC/LC.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LC/out/production/LC/Leetcode/P0025.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LC/out/production/LC/Leetcode/P0026.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LC/out/production/LC/Leetcode/P0027.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LC/out/production/LC/Leetcode/P0028.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LC/out/production/LC/Leetcode/P0029.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LC/out/production/LC/Leetcode/P0239.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LC/out/production/LC/Leetcode/P0392.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LC/out/production/LC/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LC/out/production/LC/Tests/Tests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LC/src/Leetcode/P0025.java" beforeDir="false" afterPath="$PROJECT_DIR$/LC/src/Leetcode/P0025.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LC/src/Leetcode/P0029.java" beforeDir="false" afterPath="$PROJECT_DIR$/LC/src/Leetcode/P0029.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LC/src/Tests/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/LC/src/Tests/Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LC/.gradle/8.2/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/LC/.gradle/8.2/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LC/.gradle/8.2/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/LC/.gradle/8.2/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LC/.gradle/8.2/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/LC/.gradle/8.2/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LC/.gradle/8.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/LC/.gradle/8.2/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LC/.gradle/8.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/LC/.gradle/8.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LC/.gradle/8.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/LC/.gradle/8.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LC/.gradle/8.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/LC/.gradle/8.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LC/.gradle/8.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/LC/.gradle/8.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LC/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/LC/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LC/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/LC/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LC/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/LC/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LC/build/classes/java/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/LC/build/classes/java/main/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +30,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2ET1gqAJUwXKR5V7dwlGwO9LQlu" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -41,6 +45,28 @@
     &quot;last_opened_file_path&quot;: &quot;D:/Workspace/Leetcode/LC&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="D:/Workspace/Leetcode/LC" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/LC" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
