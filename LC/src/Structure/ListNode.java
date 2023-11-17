@@ -1,4 +1,8 @@
 package Structure;
+
+import java.util.LinkedList;
+import java.util.List;
+
 public class ListNode{
     public int val;
     public ListNode next;

@@ -17,20 +17,19 @@ public class P0067 {
      */
 
     public String addBinary(String a, String b) {
-        Integer.parseInt(a, 2);
-        if(a.length() > b.length()) {
-
-        } else {
-            // equal or b bigger
+        StringBuilder ans = new StringBuilder();
+        int carry = 0, i = a.length()-1, j = b.length()-1;
+        while(i >= 0 || j >= 0 || carry == 1) {
+            if (i >= 0) carry += a.charAt(i--) - '0';
+            if (j >= 0) carry += b.charAt(j--) - '0';
+            ans.append(carry % 2);
+            carry /= 2;
         }
-        return null;
+        return ans.reverse().toString();
     }
 
-    private String addBinaryHelper(String a, String b) {
-        // assume equal length
-        for(int i = 0; i < a.length(); i++) {
-
-        }
-        return null;
+    public String addBinary2(String a, String b) {
+        // when a or b is too large, doesn't work
+        return Integer.toString(Integer.parseInt(a, 2) + Integer.parseInt(b, 2), 2);
     }
 }
