@@ -89,5 +89,8 @@ public class Tests {
 		System.out.println(test.generate(5));
 	}
 
-
+	public void P78Test() {
+		P0078 test = new P0078();
+		System.out.println(test.subsets(new int[]{1,2,3}));
+	}
 }

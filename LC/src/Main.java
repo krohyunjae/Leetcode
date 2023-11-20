@@ -19,7 +19,7 @@ public class Main {
 //		List<Integer> cd = memo.get(2);
 //		System.out.println(cd.get(1) + cd.get(0));
 
-		tests.P25Test();
+		tests.P78Test();
 	}
 	
 	
