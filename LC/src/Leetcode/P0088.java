@@ -18,11 +18,14 @@ public class P0088 {
      */
 
     public void merge(int[] nums1, int m, int[] nums2, int n) {
-        for(int i = 0; i < m+n; i ++) {
-            for(int j = i; j < n; j++) {
-                if(nums1[i] > nums2[j]) {
-                    insert(nums1, i, nums2[j]);
-                }
+        int i = m-1;
+        int j = n-1;
+        int k = m+n-1;
+        while(j >= 0) {
+            if(i >= 0 && nums1[i] > nums2[j]) {
+                nums1[k--] = nums1[i--];
+            } else {
+                nums1[k--] = nums2[j--];
             }
         }
     }
@@ -30,8 +33,8 @@ public class P0088 {
 
     private void insert(int[] nums, int pos, int val) {
         // assume memory already allocated
-        for(int i = nums.length-2; i >= pos; i--) {
-            nums[i + 1] = nums[i];
+        for(int i = nums.length-1; i > pos; i--) {
+            nums[i] = nums[i-1];
         }
         nums[pos] = val;
     }
