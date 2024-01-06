@@ -22,20 +22,40 @@ public class P0031 {
      * The replacement must be in place and use only constant extra memory.
      */
     public void nextPermutation(int[] nums) {
+        int left = -1, right = -1;
         for (int i = nums.length-2; i >= 0; i--) {
             if(nums[i] < nums[i+1]) {
-               int temp = nums[i];
-               nums[i] = nums[i+1];
-               nums[i+1] = temp;
-               return;
+                left = i;
+                break;
             }
         }
         // not found, so swap all;
-        int left = 0, right = nums.length-1, temp = 0;
-        while(left < right) {
-            temp = nums[left];
-            nums[left++] = nums[right];
-            nums[right--] = temp;
+       if(left == -1){
+           reverse(nums, 0);
+       } else {
+           for(int i = nums.length-1; i >= 0; i--) {
+               if(nums[i] > nums[left]) {
+                   right = i;
+                   break;
+               }
+           }
+
+           swap(nums,left, right);
+           reverse(nums, left+1);
+       }
+    }
+
+    void swap(int[] nums, int i, int j) {
+        int temp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = temp;
+    }
+
+    void reverse(int[] nums, int start) {
+        int i = start;
+        int j = nums.length-1;
+        while(i < j) {
+            swap(nums,i++, j--);
         }
     }
 }
