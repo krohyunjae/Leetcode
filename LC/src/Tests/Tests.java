@@ -2,7 +2,11 @@ package Tests;
 
 import Leetcode.*;
 import Structure.ListNode;
+import org.junit.Test;
+
 import java.util.List;
+
+import static org.junit.Assert.assertEquals;
 
 
 public class Tests {
@@ -92,5 +96,23 @@ public class Tests {
 	public void P78Test() {
 		P0078 test = new P0078();
 		System.out.println(test.subsets(new int[]{1,2,3}));
+	}
+	@Test
+	public void P30Test() {
+		P0030 test = new P0030();
+
+		String s1 = "barfoothefoobarman";
+		String[] words1 = {"foo","bar"};
+		int[] ans1 = {0,9};
+		assertEquals(ans1, test.findSubstring(s1,words1));
+
+		String s2 = "wordgoodgoodgoodbestword";
+		String[] words2 = {"word","good","best","word"};
+		assertEquals(List.of(), test.findSubstring(s2, words2));
+
+		String s3 = "barfoofoobarthefoobarman";
+		String[] words3 = {"bar","foo","the"};
+		int[] ans3 = {6,9,12};
+		assertEquals(ans3, test.findSubstring(s3,words3));
 	}
 }
